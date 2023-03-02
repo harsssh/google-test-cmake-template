@@ -21,10 +21,10 @@ FetchContent_MakeAvailable(googletest)
 include(GoogleTest)
 
 # Include directories
-include_directories(./include)
+include_directories(src/include)
 
 # Executable
-add_executable(${PROJECT_NAME} main.c)
+add_executable(${PROJECT_NAME} src/main.c)
 
 #add_executable(example_test example.c test/example_test.cpp)
 #target_link_libraries(example_test gtest_main)
