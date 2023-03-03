@@ -21,7 +21,7 @@ FetchContent_MakeAvailable(googletest)
 include(GoogleTest)
 
 # Include directories
-include_directories(src/include)
+include_directories(src)
 
 # Executable
 add_executable(${PROJECT_NAME} src/main.c)
